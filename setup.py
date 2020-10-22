@@ -7,6 +7,18 @@ def readme():
 
 
 setup(
+    name="transmission_helper",
+    version="0.2a",
+    python_requires=">=3.5",
+    description="""The program that will take care
+    of my transmission setup""",
+    long_description=readme(),
+    url="https://github.com/Scheercuzy/transmission_helper",
+    author="MX",
+    author_email="maxi730@gmail.com",
+    license="MIT",
+    packages=find_packages(),
+    include_package_data=True,
     install_requires=[
         "appdirs==1.4.4",
         "apscheduler==3.6.3",
@@ -53,18 +65,6 @@ setup(
         "wheel==0.35.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
         "zipp==3.3.1; python_version < '3.8'",
     ],
-    name="transmission_sync",
-    version="0.2a",
-    python_requires=">=3.5",
-    description="""The program that will take care
-    of my transmission setup""",
-    long_description=readme(),
-    url="https://github.com/Scheercuzy/transmission_helper",
-    author="MX",
-    author_email="maxi730@gmail.com",
-    license="MIT",
-    packages=find_packages(),
-    include_package_data=True,
     entry_points={
         "console_scripts": ["transmission_helper = transmission_helper.__main__:main"]
     },
