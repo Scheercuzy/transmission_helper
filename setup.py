@@ -55,6 +55,7 @@ setup(
         "six==1.15.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
         "toml==0.10.1",
         "tomlkit==0.7.0; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+        "transmissionrpc==0.11",
         "typed-ast==1.4.1",
         "typing==3.7.4.3; python_version < '3.7'",
         "tzlocal==2.1",
